@@ -14,22 +14,15 @@ npm run compile
 
 This runs
 
-<table>
-    <tbody>
-        <tr>
-            <td>
 ```sh
 npx @tailwindcss/cli -i ./working-input.css -o ./working-output.css
 ```
-            </td>
-            <td>
+
+and
+
 ```sh
 npx @tailwindcss/cli -i ./failing-input.css -o ./failing-output.css
 ```
-            </td>
-        </tr>
-    </tbody>
-</table>
 
 ### 3. Compare output CSS files and see that the colors end up with different names
 
