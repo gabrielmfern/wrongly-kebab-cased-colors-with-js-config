@@ -12,18 +12,6 @@ npm install
 npm run compile
 ```
 
-This runs
-
-```sh
-npx @tailwindcss/cli -i ./working-input.css -o ./working-output.css
-```
-
-and
-
-```sh
-npx @tailwindcss/cli -i ./failing-input.css -o ./failing-output.css
-```
-
 ### 3. Compare output CSS files and see that the colors end up with different names
 
 Here's the diff of [the output I expect](./working-output.css) and [the output that I get](./failing-output.css):
