@@ -8,12 +8,6 @@
     "working": "bunx @tailwindcss/cli -i ./working-input.css -o ./working-output.css",
     "failing": "bunx @tailwindcss/cli -i ./failing-input.css -o ./failing-output.css"
   },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.17",
     "tailwindcss": "^4.1.17"
