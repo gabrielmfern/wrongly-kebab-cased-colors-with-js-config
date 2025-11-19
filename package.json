@@ -4,9 +4,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "compile": "bun working && bun failing",
-    "working": "bunx @tailwindcss/cli -i ./working-input.css -o ./working-output.css",
-    "failing": "bunx @tailwindcss/cli -i ./failing-input.css -o ./failing-output.css"
+    "compile": "npm run working && npm run failing",
+    "working": "npx @tailwindcss/cli -i ./working-input.css -o ./working-output.css",
+    "failing": "npx @tailwindcss/cli -i ./failing-input.css -o ./failing-output.css"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.17",
